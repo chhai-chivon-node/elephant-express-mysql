@@ -5,6 +5,6 @@ module.exports = connection(mysql,{
           host     : 'localhost',
           user     : 'root',
           password : '',
-          database : 'elephant-express',
+          database : 'elephant-express-mysql',
           debug    : false //set true if you wanna see debug logger
       },'request');
