@@ -6,12 +6,17 @@
   </head>
   <body>
     <header>
-        <% include ./leftbar %>
+        <% include ./layouts/header %>
     </header>
+
+    <header>
+      <% include ./layouts/leftbar %>
+  </header>
+
       <h2>admin</h2>
 
       <footer>
-          <% include ../partials/footer %>
+          <% include ./layouts/footer %>
       </footer>
   </body>
 </html>
